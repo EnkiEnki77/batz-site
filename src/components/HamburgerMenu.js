@@ -3,7 +3,7 @@ import {RxHamburgerMenu} from 'react-icons/rx'
 
 const HamburgerMenu = () => {
   return (
-    <><RxHamburgerMenu/></>
+    <><RxHamburgerMenu className='hamburger'/></>
   )
 }
 

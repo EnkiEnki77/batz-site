@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from './Logo'
 import Nav from './Nav'
 import HamburgerMenu from './HamburgerMenu'
+import MobileNav from './MobileNav'
 
 const Header = (props) => {
     
@@ -10,7 +11,6 @@ const Header = (props) => {
         <Logo/>
         <Nav {...props}/>
         <HamburgerMenu/>
-        {/* MobileNav */}
     </header>
   )
 }
