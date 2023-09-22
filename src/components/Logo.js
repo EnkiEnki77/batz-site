@@ -3,8 +3,8 @@ import LogoImg from '../images/Logo.png'
 
 const Logo = () => {
   return (
-    <picture>
-        <img src={LogoImg} alt='site logo'/>
+    <picture className='logo'>
+        <img className='logo-mobile' src={LogoImg} alt='site logo'/>
     </picture>
   )
 }
