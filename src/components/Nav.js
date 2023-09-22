@@ -5,13 +5,13 @@ const Nav = ({listItems}) => {
     <nav className='nav'>
         <ul className='nav-list'>
             {listItems.map(item => {
-                <li className='nav-list-item'>
+                return (<li className='nav-list-item' key={item.linkText}>
                     <a 
                         href={item.path} 
                         className={`nav-link ${item.currentPage && 'current-page'}`}>
                         {item.linkText}
                     </a>
-                </li>
+                </li>)
             })}
         </ul>
     </nav>
