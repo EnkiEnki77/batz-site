@@ -9,6 +9,32 @@
     display: flex;
 }
 
+.nav-closed{
+    left: -100%;
+}
+
+.nav-open{
+    left: 0;
+}
+
+.close-nav-btn{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    background-color: black;
+    border: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0;
+    cursor: pointer;
+}
+
+.close-nav-btn:hover,
+.close-nav-btn:focus{
+    opacity: 0.8;
+}
+
 .nav-list{
     padding: 0;
     list-style: none;

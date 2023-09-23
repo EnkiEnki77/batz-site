@@ -2,9 +2,9 @@ import React from 'react'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import "./HamburgerMenu.css"
 
-const HamburgerMenu = () => {
+const HamburgerMenu = ({onToggleNav}) => {
   return (
-    <><GiHamburgerMenu className='hamburger'/></>
+    <><GiHamburgerMenu className='hamburger' onClick={onToggleNav}/></>
   )
 }
 
