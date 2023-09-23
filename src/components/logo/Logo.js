@@ -4,9 +4,11 @@ import "./Logo.css"
 
 const Logo = () => {
   return (
-    <picture className='logo'>
-        <img className='logo-mobile' src={LogoImg} alt='site logo'/>
-    </picture>
+   <a href='/' className='home-link'>
+      <picture className='logo'>
+          <img className='logo-mobile' src={LogoImg} alt='site logo'/>
+      </picture>
+   </a>
   )
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/header/Header'
 import Carousel from '../components/carousel/Carousel'
+import "./Home.css"
 
 const Home = () => {
     const listItems = [

@@ -1,6 +1,10 @@
 .logo-mobile{
-    background-color: black;
-    filter: invert(100%);
-    max-width: 90%;
+    background-color: transparent;
+    /* filter: invert(100%); */
+    max-width: 75%;
     object-fit: cover;
+}
+
+.home-link{
+    cursor: pointer;
 }

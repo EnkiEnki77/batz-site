@@ -1,9 +1,10 @@
 import React from 'react'
-import {RxHamburgerMenu} from 'react-icons/rx'
+import {GiHamburgerMenu} from 'react-icons/gi'
+import "./HamburgerMenu.css"
 
 const HamburgerMenu = () => {
   return (
-    <><RxHamburgerMenu className='hamburger'/></>
+    <><GiHamburgerMenu className='hamburger'/></>
   )
 }
 
