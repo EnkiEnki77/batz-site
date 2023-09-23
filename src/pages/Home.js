@@ -1,5 +1,6 @@
 import React from 'react'
-import Header from '../components/Header'
+import Header from '../components/header/Header'
+import Carousel from '../components/carousel/Carousel'
 
 const Home = () => {
     const listItems = [
@@ -8,12 +9,15 @@ const Home = () => {
         {path: '/shop', currentPage: false, linkText: 'shop'},
         {path: '/contact', currentPage: false, linkText: 'contact'}
     ]
-    
+
   return (
     <div className='home-page'>
         <Header listItems={listItems}/>
-        {/* <Carousel/> */}
-        {/* <NewsLetterPopup/> */}
+        <main className='main-content'>
+             <Carousel/>
+            {/* <NewsLetterPopup/> */}
+        </main>
+       
     </div>
   )
 }

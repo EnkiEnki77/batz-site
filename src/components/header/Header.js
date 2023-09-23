@@ -1,8 +1,9 @@
 import React from 'react'
-import Logo from './Logo'
-import Nav from './Nav'
-import HamburgerMenu from './HamburgerMenu'
-import MobileNav from './MobileNav'
+import Logo from '../logo/Logo'
+import Nav from '../nav/Nav'
+import HamburgerMenu from '../hamburger-menu/HamburgerMenu'
+import "./Header.css"
+
 
 const Header = (props) => {
     
