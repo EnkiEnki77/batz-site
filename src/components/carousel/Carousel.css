@@ -1,6 +1,14 @@
 .carousel{
     position: relative;
     height: 100%;
+    background-image: url(../../images/ivy.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .carousel-previous-img{
