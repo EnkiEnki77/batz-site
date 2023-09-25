@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../components/header/Header'
 import Carousel from '../../components/carousel/Carousel'
 import "./Home.css"
+import Layout from '../../components/layout/Layout'
 
 const Home = () => {
     const listItems = [
@@ -12,14 +13,9 @@ const Home = () => {
     ]
 
   return (
-    <div className='home-page'>
-        <Header listItems={listItems}/>
-        <main className='main-content'>
-             <Carousel/>
-            {/* <NewsLetterPopup/> */}
-        </main>
-       
-    </div>
+    <Layout listItems={listItems} home={true} pageClass='home-page'>
+      <Carousel/>
+    </Layout>
   )
 }
 
