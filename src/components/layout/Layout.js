@@ -3,10 +3,10 @@ import "./Layout.css"
 import Header from '../header/Header'
 import Footer from '../footer/Footer'
 
-const Layout = ({listItems, home, children, pageClass}) => {
+const Layout = ({listItems, home=false, children, pageClass}) => {
   return (
     <div className={pageClass}>
-        <Header listItems={listItems}/>
+        <Header listItems={listItems} home={home}/>
         <main className='main-content'>
             {children}
         </main>

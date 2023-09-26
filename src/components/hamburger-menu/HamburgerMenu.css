@@ -1,6 +1,14 @@
 .hamburger{
     font-size: 2rem;
     /* padding-right: .5rem; */
+    color: black;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.hamburger-home{
+    font-size: 2rem;
+    /* padding-right: .5rem; */
     color: white;
     opacity: 0.8;
     cursor: pointer;

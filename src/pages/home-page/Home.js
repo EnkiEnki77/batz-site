@@ -6,7 +6,7 @@ import Layout from '../../components/layout/Layout'
 
 const Home = () => {
     const listItems = [
-        {path: '/about', currentPage: true, linkText: 'about'},
+        {path: '/about', currentPage: false, linkText: 'about'},
         {path: '/portfolio', currentPage: false, linkText: 'portfolio'},
         {path: '/shop', currentPage: false, linkText: 'shop'},
         {path: '/contact', currentPage: false, linkText: 'contact'}

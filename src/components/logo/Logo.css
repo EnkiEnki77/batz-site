@@ -1,6 +1,12 @@
 .logo-mobile{
     background-color: transparent;
-    /* filter: invert(100%); */
+    filter: invert(100%);
+    max-width: 75%;
+    object-fit: cover;
+}
+
+.logo-home{
+    background-color: transparent;
     max-width: 75%;
     object-fit: cover;
 }

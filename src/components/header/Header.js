@@ -14,9 +14,9 @@ const Header = (props) => {
     
   return (
     <header className='header'>
-        <Logo/>
+        <Logo home={props.home}/>
         <Nav onToggleNav={handleToggleNav} navToggle={toggleNav} {...props}/>
-        {!toggleNav && <HamburgerMenu onToggleNav={handleToggleNav}/>}
+        {!toggleNav && <HamburgerMenu home={props.home} onToggleNav={handleToggleNav}/>}
     </header>
   )
 }
