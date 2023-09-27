@@ -1,0 +1,17 @@
+.contact-page{
+    height: 100%;
+}
+
+.main-content{
+    height: 100%;
+}
+
+.contact-bg{
+    position: relative;
+    height: 100%;
+    background-image: url(../../images/paper-fiber.png);
+     background-size: cover;
+    background-position: bottom; 
+    display: flex;
+    flex-direction: column;
+}

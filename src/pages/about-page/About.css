@@ -4,6 +4,7 @@
 
 .main-content{
     height: 100%;
+    max-height: 1450px;
 }
 
 .about-image{
@@ -14,10 +15,11 @@
     background-position: bottom; 
     display: flex;
     flex-direction: column;
+    max-height: 1450px;
 }
 
 .paint-splotch{
-    margin-top: 135px;
+    margin-top: 157px;
     max-height: 210px;
     width: 100%;
     object-fit: cover;
@@ -30,7 +32,7 @@
     width: 100%;
     max-width: 150px;
     position: absolute;
-    top: 122px;
+    top: 144px;
     left: 50%;
     transform: translate(-50%);
 }
@@ -41,7 +43,7 @@
     width: 100%;
     max-width: 195px;
     position: absolute;
-    top: 105px;
+    top: 127px;
     left: 50%;
     transform: translate(-50%);
 }

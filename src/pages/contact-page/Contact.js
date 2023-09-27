@@ -10,7 +10,9 @@ const Contact = () => {
     ]
   return (
     <Layout listItems={listItems} pageClass='contact-page'>
-        
+        <div className='contact-bg'>
+            
+        </div>
     </Layout>
   )
 }
