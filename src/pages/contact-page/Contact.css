@@ -3,7 +3,14 @@
 }
 
 .main-content{
+    position: relative;
     height: 100%;
+    max-height: 750px;
+    background-image: url(../../images/paper-fiber.png);
+     background-size: cover;
+    background-position: bottom; 
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-bg{
@@ -14,4 +21,79 @@
     background-position: bottom; 
     display: flex;
     flex-direction: column;
+}
+
+.contact-form{
+    background-image: url(../../images/torn-paper.png); 
+    background-size: cover;
+    background-position: bottom; 
+     min-height: 500px;
+    position: relative;
+    margin: auto;
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    align-items: center ;
+    justify-content: center;
+    width: 100%;
+    max-width: 80%; 
+    gap: 1em;
+}
+
+.contact-form > *{
+    max-width: 70%;
+    width: 100%;
+    padding: 1em 1.5em;
+    border-radius: 8px;
+    border: 0;
+    font-family: 'PT Serif', serif;
+}
+
+.contact-form > input,
+.contact-form > textarea{
+     background: #666;
+     color: white;
+}
+
+.contact-form > input::placeholder,
+.contact-form > textarea::placeholder{
+     color: white;
+     opacity: 0.8;
+}
+
+.contact-tag{
+    position: absolute;
+    top: -75px;
+    min-width: 110%;
+    padding: 0;
+}
+
+.flower{
+    position: absolute;
+    bottom: -75px;
+    right: -30px;
+    padding: 0;
+}
+
+textarea{
+    min-height: 75px;
+}
+
+.contact-form-submit{
+    background-color: black;
+    color: white;
+    width: 100%;
+    /* margin-right: 15%;
+    margin-left: auto; */
+    margin-bottom: 2em;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+}
+
+.contact-form-submit:hover,
+.contact-form-submit:focus{
+    background-color: white;
+    border: black solid 1px;
+    color: black;
 }
