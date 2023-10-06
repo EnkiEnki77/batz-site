@@ -7,7 +7,7 @@ const Layout = ({listItems, home=false, children, pageClass}) => {
   return (
     <div className={pageClass}>
         <Header listItems={listItems} home={home}/>
-        <main className='main-content'>
+        <main className={`${home && 'main-content-home'}`}>
             {children}
         </main>
         {!home && <Footer/>}
