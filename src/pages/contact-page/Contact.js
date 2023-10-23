@@ -15,13 +15,14 @@ const Contact = () => {
     <Layout listItems={listItems} pageClass='contact-page'>
        
             <div className='contact-bg'>
-                <form className='contact-form'>
-                    <img className='contact-tag' src={tag} alt='contact form title'/>
+                <form className='contact-form' style={{height: 'auto'}}>
+                    <h2 className='form-title'>Contact Me</h2>
+                    {/* <img className='contact-tag' src={tag} alt='contact form title'/> */}
                     <input className='contact-form-name' type='text' placeholder='Name...'/>
                     <input className='contact-form-email' type='email' placeholder='Email...'/>
                     <textarea className='contact-form-message' placeholder='Message...'></textarea>
                     <button className='contact-form-submit' type='submit'>submit</button>
-                    <img className='flower' src={flower} alt='flower'/>
+                    {/* <img className='flower' src={flower} alt='flower'/> */}
                 </form> 
             </div>
 

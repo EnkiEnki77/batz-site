@@ -1,5 +1,7 @@
 import React from 'react'
 import Layout from '../../components/layout/Layout'
+import Abi from '../../images/DSC_4790-2 2.png'
+import './Portfolio.css'
 
 const Portfolio = () => {
     const listItems = [
@@ -9,8 +11,8 @@ const Portfolio = () => {
         {path: '/contact', currentPage: false, linkText: 'contact'}
     ]
   return (
-    <Layout listItems={listItems} pageClass='about-page'>
-        
+    <Layout portfolio={true} listItems={listItems} pageClass='about-page'>
+        <img className='portfolio-image' src={Abi} alt='portfolio'/>
     </Layout>
   )
 }

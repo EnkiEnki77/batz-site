@@ -1,0 +1,6 @@
+.portfolio-image{
+    height: 100vh;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}

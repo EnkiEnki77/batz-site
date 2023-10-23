@@ -2,15 +2,17 @@
     background-color: transparent;
     filter: invert(100%);
     width: 100%;
-    max-width: 150px;
+    max-width: 175px;
     object-fit: cover;
+    transform: translateX(-5px)
 }
 
 .logo-home{
     background-color: transparent;
     width: 100%;
-    max-width: 150px;
+    max-width: 175px;
     object-fit: cover;
+    transform: translateX(-5px)
 }
 
 .home-link{

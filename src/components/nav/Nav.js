@@ -1,12 +1,14 @@
 import React from 'react'
 import "./Nav.css"
-import {AiOutlineClose} from "react-icons/ai"
+import Logo from '../logo/Logo'
 
-const Nav = ({listItems, onToggleNav, navToggle}) => {
+
+const Nav = ({listItems, navToggle}) => {
   return (
     <nav className={`nav ${navToggle ? "nav-open" : "nav-closed"}`}>
-        <button className='close-nav-btn' onClick={onToggleNav}><AiOutlineClose/></button>
+       
         <ul className='nav-list'>
+            <Logo/>
             {listItems.map(item => {
                 return (<li className='nav-list-item' key={item.linkText}>
                     <a 

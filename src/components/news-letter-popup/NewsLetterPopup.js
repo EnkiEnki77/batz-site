@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {AiOutlineClose} from "react-icons/ai"
 import "./NewsLetterPopup.css"
 
-const NewsLetterPopup = () => {
+const NewsLetterPopup = ({onPopupClick}) => {
+  
   return (
     <div className='newsletter-popup'>
-        <AiOutlineClose className='close-popup'/>
+        <AiOutlineClose onClick={onPopupClick} className='close-popup'/>
         <h1 className='newsletter-popup-title'>subscribe</h1>
         <p className='sub-title'>for exclusive updates and offers</p>
         <form className='popup-form'>
