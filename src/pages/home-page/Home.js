@@ -8,12 +8,11 @@ const Home = () => {
     const listItems = [
         {path: '/about', currentPage: false, linkText: 'about'},
         {path: '/portfolio', currentPage: false, linkText: 'portfolio'},
-        {path: '/shop', currentPage: false, linkText: 'shop'},
         {path: '/contact', currentPage: false, linkText: 'contact'}
     ]
 
   return (
-    <Layout listItems={listItems} home={true} pageClass='home-page'>
+    <Layout listItems={listItems} home  pageClass='home-page'>
       <Carousel/>
     </Layout>
   )

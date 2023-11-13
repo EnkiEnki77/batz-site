@@ -6,11 +6,11 @@ import Footer from '../footer/Footer'
 const Layout = ({listItems, home=false, portfolio=false, children, pageClass}) => {
   return (
     <div className={pageClass}>
-        <Header listItems={listItems} home={home || portfolio}/>
+        <Header listItems={listItems} home={home }/>
         <main className={`${home && 'main-content-home'}`}>
             {children}
         </main>
-        {!home && <Footer/>}
+         <Footer/>
     </div>
   )
 }

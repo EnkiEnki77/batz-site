@@ -9,6 +9,8 @@
     margin: 0 auto;
     justify-content: center;
     /* align-items: center; */
+    min-height: 100vh;
+    max-height: 100vh;
 }
 
 .carousel-previous-img{

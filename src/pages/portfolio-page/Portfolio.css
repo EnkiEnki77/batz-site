@@ -4,3 +4,8 @@
     width: 100%;
     object-fit: cover;
 }
+
+.portfolio{
+    padding-top: 136px;
+    background-image: url(../../images/paper.png);
+}
